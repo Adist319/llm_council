@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "lm-council": {
+      "command": "uv",
+      "args": ["--directory", "/Users/adrianong/Documents/LLM Council", "run", "lm-council-mcp"],
+      "env": {
+        "OPENROUTER_API_KEY": "your-openrouter-api-key-here",
+        "HF_TOKEN": "your-huggingface-token-here"
+      }
+    }
+  }
+}
